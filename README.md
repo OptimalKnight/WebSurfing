@@ -10,8 +10,8 @@ A (relatively) small random walk over the web network.
 6) The program does this for 'depth' number of iterations.
 7) The program writes all the newly encountered links to a file with the path 'filePath'. \
 &emsp; Links extracted from a sample random walk are provided in 'Links.txt' \
-&emsp; walk initialised at: https://iitrpr.ac.in \
-&emsp; depth: 30
+&emsp; Walk initialised at: https://iitrpr.ac.in \
+&emsp; Depth: 30
 8) The program also simultaneously generates a graph with an edge between the current page and all the links present on that page.
 9) The program finally ouputs the generated graph.
 
