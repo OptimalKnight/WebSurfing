@@ -24,7 +24,6 @@ def webSurf(url, base, filePath, depth, teleportationProbability):
 
     # perfoms the random walk for 'depth' number of iterations
     for ite in range(depth):
-        G.add_node(url)
         connectionError = False
         num = random.randint(1,10) / 10
 
@@ -87,8 +86,7 @@ def webSurf(url, base, filePath, depth, teleportationProbability):
                     try:
                         file.write(encodedLink[2:-1])
                         file.write('\n')
-                        G.add_node(encodedLink[2:-1])
-                        G.add_edge(url,encodedLink[2:-1]) # adding edges to the graph
+                        G.add_edge(str(url),str(encodedLink)) # adding edges to the graph
                         isFileEmpty = False
                     except:
                         # continue
