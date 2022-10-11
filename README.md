@@ -11,7 +11,6 @@ A (relatively) small random walk over the web network.
 7) The program simultaneously generates a graph with an edge between the current page and all the links present on that page.
 8) The program finally ouputs the generated graph.
 
-
 ## How To Use
 1) Open the Terminal.
 2) Navigate to the folder containing the program.
