@@ -105,7 +105,7 @@ def webSurf(url, base, filePath, depth, teleportationProbability):
                 base = found
 
     # to view the generated graph
-    nx.draw(G, with_labels=True)
+    nx.draw(G)
     plt.show()
 
 
