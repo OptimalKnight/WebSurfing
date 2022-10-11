@@ -8,8 +8,12 @@ A (relatively) small random walk over the web network.
 4) It then extracts all the links present on the current page.
 5) The program then with a probability of 'teleportationProbability', teleports to a random link (selected from the already explored links), or with a probability 1 - 'teleportationProbability' surfs to a random adjacent link (selected from the links present on the current page).
 6) The program does this for 'depth' number of iterations.
-7) The program simultaneously generates a graph with an edge between the current page and all the links present on that page.
-8) The program finally ouputs the generated graph.
+7) The program writes all the newly encountered links to a file with the path 'filePath'. 
+    Links extracted from a sample random walk are provided in 'Links.txt'
+    walk initialised at: https://iitrpr.ac.in
+    depth: 30
+8) The program also simultaneously generates a graph with an edge between the current page and all the links present on that page.
+9) The program finally ouputs the generated graph.
 
 ## How To Use
 1) Open the Terminal.
